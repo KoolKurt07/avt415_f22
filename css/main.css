@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background-color: black;
+  color: #181354;
+  margin: 0;
+  padding: 50px;
+  line-height: 1.75;
+}
+h1 {
+  color: #FFA500;
+  font-size: 4em;
+}
+
+h2 {font-size: 3em;
+  color: #FFA500;
+}
+
+h4 {font-size: 1.5em;
+margin-top: 0;
+color: #FFA500;
+}
+
+dt {
+	font-size: 2em;
+	font-weight: bold;
+  color: #FFA500;
+}
+dd {
+  color: white;
+}
+a {
+color: white;
+}
+a:hover {
+  color: #ADD8E6;
+}
