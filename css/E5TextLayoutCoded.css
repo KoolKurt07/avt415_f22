@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url("Nobile_BoldItalic/stylesheet.css");
+@import url("Nobile_Regular/stylesheet.css");
+@import url("Nobile_MediumItalic/stylesheet.css");
+/* CSS Document */
+
+html {font-size: 100%;} /*16px*/
+
+body {
+    background-color: #222222;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+h1 {
+    color: #00B1FF;
+    font-size: 190%;
+    font-family: "Nobile BoldItalic";
+}
+
+h2 {
+    color: #00B1FF;
+    font-size: 150%;
+    font-family: "Nobile BoldItalic";
+}
+
+p {
+    color: white;
+    font-family: "Nobile Regular";
+    line-height: 150%;
+    font-size: 100%;}
+.italic {
+    color: white;
+    font-family: "Nobile MediumItalic";
+}
