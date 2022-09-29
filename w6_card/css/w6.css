@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url("Nobile_Regular/stylesheet.css");
+@import url("AlexBrush_Regular/stylesheet.css");
+/* CSS Document */
+  body {
+    background-color: darkorange;
+    margin: 0;
+    font-size: 10px;
+    padding-bottom: 3%;
+  }
+
+#container {
+	  width:90%;
+	  margin-top: 40vh;
+	  margin-left: 10vh;
+  }
+
+  p {
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 3rem;
+    text-align: center;
+  }
+ 
+
+  img {
+    display: block;
+    border-left: thick double #FFFFFF;
+    -webkit-box-shadow: 3px 6px 24px 1px #000000;
+    box-shadow: 3px 6px 24px 1px #000000;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+      background-color: crimson;
+    }
+	  
+	#container {
+      margin-top: 20vh;
+    }
+	   
+    p {
+    color: darkorange;
+    font-family: "Nobile Regular";
+    }
+	  
+	#cursive {
+    font-family: "AlexBrush Regular";
+    text-align: center;
+  	}
+	  
+    .mobile-only {
+      display: block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+      display: none;
+    }
+
+} /* don't forget to close the styles for mobile/
